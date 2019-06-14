@@ -8,6 +8,7 @@ public class Functions : MonoBehaviour
     void Start()
     {
         Print();
+        Debug.Log(Calculate());
     }
 
     // Update is called once per frame
@@ -19,5 +20,13 @@ public class Functions : MonoBehaviour
     void Print()
     {
         Debug.Log("Hello");
+    }
+
+    int Calculate()
+    {
+        int n1 = 2;
+        int n2 = 3;
+
+        return n1 + n2;
     }
 }
